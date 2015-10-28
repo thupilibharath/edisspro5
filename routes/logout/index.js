@@ -8,9 +8,7 @@ exports.logoutuser = function(req,res){
         req.session.destroy(function(err){
             if(err){
                 console.log(err);
-            }
-            else
-            {
+            }else {
                 res.send(JSON.stringify({message:'You have been logged out'}));
             }
         });
