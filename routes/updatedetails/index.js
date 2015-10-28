@@ -97,5 +97,3 @@ exports.updatedetails = function(req, res){
             }
 
 };
-
-
